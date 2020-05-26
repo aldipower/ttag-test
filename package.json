@@ -8,13 +8,18 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "ttag": "^1.7.22",
+    "ttag-cli": "^1.8.3",
+    "ttag.macro": "^1.7.17"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "i18n-create": "ttag init",
+    "i18n-update": "ttag update i18n/en.po src/"
   },
   "eslintConfig": {
     "extends": "react-app"
